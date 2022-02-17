@@ -4,7 +4,7 @@ $tieu_de = $_POST['tieu_de'];
 $noi_dung = $_POST['noi_dung'];
 $anh = $_POST['anh'];
 
-$ket_noi = mysqli_connect('localhost','root','','j2school');
+$ket_noi = mysqli_connect('localhost','root','','tintuc');
 mysqli_set_charset($ket_noi,'utf8');
 
 $sql = "insert into crud(tieu_de,noi_dung,anh) values('$tieu_de', '$noi_dung', '$anh')";
