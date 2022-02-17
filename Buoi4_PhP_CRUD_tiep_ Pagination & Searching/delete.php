@@ -2,7 +2,7 @@
 
 $ma = $_GET['ma'];
 
-$ket_noi = mysqli_connect('localhost','root','','j2school');
+$ket_noi = mysqli_connect('localhost','root','','tintuc');
 mysqli_set_charset($ket_noi,'utf8');
 
 $sql = "delete from crud where ma = $ma";
