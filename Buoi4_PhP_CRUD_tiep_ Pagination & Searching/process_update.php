@@ -4,7 +4,7 @@
     $noi_dung=$_POST['noi_dung'];
     $anh=$_POST['anh'];
 
-    $ket_qua = mysqli_connect('localhost','root','','j2school');
+    $ket_qua = mysqli_connect('localhost','root','','tintuc');
     mysqli_set_charset($ket_qua,'utf8');
 
     $sql = "update crud 
